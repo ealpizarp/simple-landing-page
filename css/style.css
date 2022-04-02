@@ -8,7 +8,7 @@ body, html {
 
 div.parallax-1 {
     /* The image used */
-    background-image: url('../img/minimal-world.jpg');
+    background-image: url('../resources/img/minimal-world.jpg');
   
     /* Full height */
     height: 100%; 
@@ -23,7 +23,7 @@ div.parallax-1 {
 
   .parallax-2 {
     /* The image used */
-    background-image: url('../img/keyboard.jpg');
+    background-image: url('../resources/img/keyboard.jpg');
   
     /* Full height */
     height: 400px; 
