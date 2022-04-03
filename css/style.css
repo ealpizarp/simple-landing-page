@@ -6,34 +6,20 @@ body, html {
     background-color: white;
   }
 
-div.parallax-1 {
-    /* The image used */
-    background-image: url('../resources/img/minimal-world.jpg');
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Create the parallax scrolling effect */
-    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .parallax-2 {
+  .parallax-1 {
     /* The image used */
     background-image: url('../resources/img/keyboard.jpg');
   
     /* Full height */
-    height: 400px; 
+    min-height: 400px; 
   
     /* Create the parallax scrolling effect */
-    
-    background-attachment: fixed;
+    position: relative;
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   }
 
 
@@ -43,7 +29,7 @@ div.parallax-1 {
     margin: auto;
     position: relative;
     left: 500x;
-    top: 250px;
+    top: 180px;
     width: 250px;
     height: 32px;
     padding: 10px;
@@ -53,17 +39,25 @@ div.parallax-1 {
 
  .showcase
  {
-   position: absolute;
+
+   position: relative;
    right: 0;
    width: 100%;
-   min-height: 100vh;
+   min-height: 80vh;
    padding: 100px;
    display: flex;
    justify-content: space-between;
    align-items: center;
    background: #111;
    transition: 0.5s;
-   z-index: 2;
+   
+ }
+
+ .showcase nav {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
  }
 
  .overlay
@@ -73,12 +67,6 @@ div.parallax-1 {
   left: 0;
   width: 100%;
   height: 100%;
-  mix-blend-mode: overlay;
-}
-
- .showcase.active
-{
-  right: 300px;
 }
 
 .showcase video
@@ -90,9 +78,11 @@ div.parallax-1 {
   height: 100%;
   object-fit: cover;
   opacity: 0.8;
+
+
 }
 
- .parallax-2 h2 {
+ .overlay h2 {
   font-family: 'Bebas Neue', cursive;
   font-size: 40px;
   margin: auto;
@@ -106,9 +96,9 @@ div.parallax-1 {
   text-align: center;
 }
 
-
  .section {
    text-align: center;
+   position: relative;
    padding: 50px 80px;
  }
 
@@ -127,4 +117,10 @@ div.parallax-1 {
   
   .text-center {
     text-align: center;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
   }
