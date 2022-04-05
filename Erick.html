@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--General Settings-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/movies-styles.css">
+        <link rel="shortcut icon" href="./img/web-icon.svg">
+
+        <!--Owl Carousel-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+        <!--Icons from Font Awesome-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.1/localStorage.min.js"></script>
+        
+        <title>Movplus</title>
+    </head>
+
+    <body>
+        <!--navigation-->
+        <nav>
+            <div class="logo-container">
+                <a href="./Erick.html" class="logo">
+                    <img src="./img/web-icon.svg" alt="">
+                    <span>Movplus</span>
+                </a>
+            </div>
+            
+
+            <ul class="menu">
+                <li><a href="./Erick.html">Inicio</a></li>
+            </ul>
+        </nav>
+
+        <!--Section: Upcoming Movies-->
+            <section class="upcoming" id="latest">   
+                <h2 class="title">Próximas Películas</h2>
+                
+                <div id="wrapper-latest" class="wrapper">
+                    <div id="latest-movies" class="latest-movies movies owl-carousel">
+                        
+                    </div>
+                </div>
+                    
+            </section>
+
+        <!--Section: Popular Movies-->
+            <section class="popular" id="popular">   
+                <h2 class="title">Películas Populares</h2>
+                <div id="wrapper-popular" class="wrapper">
+                    <div id="popular-movies" class="movies">
+
+                    </div>
+                </div>
+                    
+            </section>
+        
+        <!--Scripts-->
+            
+            <script src="./js/movies-api.js"></script>
+    </body>
+</html>
