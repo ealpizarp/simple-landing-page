@@ -70,14 +70,14 @@ a {
 }
 .headding h2
 {
-    color:#ff4c00;
+    color:#44C4DC;
     margin-bottom:20px;
     position:relative;
 	font-family: "Oswald";
 }
 .headding h2 span
 {
-    color:#000;
+    color:#F8A957;
 }
 
 .headding h2::before {
@@ -94,7 +94,7 @@ a {
     border: 1px solid #fff;
     border-radius: 47%;
     box-shadow: 6px 2px 5px #eee;
-    color: #ff4c00;
+    color: #F8A957;
     float: right;
     font-size: 28px;
     height: 55px;
@@ -108,7 +108,7 @@ a {
     border: 1px solid #fff;
     border-radius: 47%;
     box-shadow: -6px 2px 5px #eee;
-    color: #ff4c00;
+    color: #F8A957;
     float: left;
     font-size: 28px;
     height: 55px;
@@ -133,7 +133,7 @@ a {
     text-align:center;
 }
 .angle::before {
-    border-bottom: 72px solid #333;
+    border-bottom: 72px solid #0F7386;
     border-right: 960px solid transparent;
     left: 0;
 }
@@ -146,12 +146,12 @@ a {
     z-index: 4;
 }
 .angle::after {
-    border-bottom: 72px solid #333;
+    border-bottom: 72px solid #0F7386;
     border-left: 960px solid transparent;
     right: 0;
 }
 .angle2::before {
-    border-top: 72px solid #333;
+    border-top: 72px solid #0F7386;
     border-right: 960px solid transparent;
     left: 0;
 }
@@ -164,7 +164,7 @@ a {
     z-index: 4;
 }
 .angle2::after {
-    border-top: 72px solid #333;
+    border-top: 72px solid #0F7386;
     border-left: 960px solid transparent;
     right: 0;
 }
@@ -177,7 +177,7 @@ a {
         height: auto;
     }
 a {
-    color: #ff4c00;
+    color: #0F7386;
     text-decoration: none;
 }
 a:hover {
@@ -191,7 +191,8 @@ a:hover {
     height: 50px;
     transition: all 0.35s ease 0s; 
     -webkit-transition: all 0.35s ease 0s;
-     -moz-transition: all 0.35s ease 0s;
+    -moz-transition: all 0.35s ease 0s;
+    background: #E0F3F8; 
 }
 .navbar-brand {
     float: left;
@@ -209,7 +210,7 @@ a:hover {
 }
 
 nav.affix {
-    background: #333;
+    background: #0F7386;
     padding:5px 0;
 }
 nav.affix img {
@@ -226,7 +227,7 @@ nav.affix-top {
    font-family: 'Open Sans', sans-serif;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #44C4DC;
     font-size:16px;
     text-align:center;
     border-radius: 5px;    
@@ -236,14 +237,14 @@ nav.affix-top {
 .navbar-default .navbar-nav > li > a:focus, 
 .navbar-default .navbar-nav > li > a:hover {
     background-color: transparent;
-     background-color: #ff4c00;
+     background-color: #44C4DC;
       border-radius: 10px;
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
     color: #fff;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    background-color: #ff4c00;   
+    background-color: #44C4DC;   
        border-radius: 10px;
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
@@ -253,7 +254,7 @@ nav.affix-top {
 /*-------- header css --------------*/
 
 header {
-    background:url("../resources/img/bg_slilder-1.jpg") ;
+    background-color: #E0F3F8;
     background-attachment:fixed;
     background-size:cover;
     height: 670px;
@@ -275,20 +276,21 @@ header .header-content {
     font-size: 44px;
     margin-bottom: 28px;
 	font-family: "Oswald";
+    color: #0F7386;
 }
 .header-content h3 {
     margin-bottom: 28px;
-    color: #ff4c00;
+    color: #F8A957;
 	font-family: "Oswald";
 }
 .header-content p {
-    color: #ddd;
+    color: #44C4DC;
     font-size: 16px;
     margin-bottom: 28px;
 	font-family: "Oswald";
 }
 .header-content .btn-ornge {
-    background: #ff4c00 none repeat scroll 0 0;
+    background: #F8A957;
     border: medium none;
     border-radius: 20px;
     font-weight:bold;
@@ -306,7 +308,7 @@ header .header-content {
 }
 .header-content .btn-ornge:hover {
     background: #fff none repeat scroll 0 0;
-    color:#ff4c00;   
+    color:#0F7386;   
 }
 .btn-ornge .fa-cloud-download {
     background: #fff none repeat scroll 0 0;
@@ -330,13 +332,13 @@ header .header-content {
      -moz-transition: all .3s ease 0s;
 }
 .btn-ornge:hover .hbtn {
-    background: #fff none repeat scroll 0 0;   
+    background: #FFD397;   
     width: 100%;    
 }
 
 /*-------- about css --------------*/
 #about {
-	background-color: #E2E1E1;
+	background-color: #E0F3F8;
     background-size:10%;
     position:relative;
     padding: 120px 0;
@@ -344,7 +346,7 @@ header .header-content {
 	overflow:hidden;
 }
 #about::before {
-    background:rgba(255, 255, 255, 0.5);
+    background:#E0F3F8;
     content:"";
     height: 10%;
     position:absolute;
@@ -356,10 +358,19 @@ header .header-content {
 #about h1 {
     font-size: 42px !important;
 	font-family: "Oswald";
+    color: #F8A957
 }
 #about h1 span 
 {
-    color:#ff4c00;
+    color:#44C4DC;
+}
+
+#about h2 {
+    color: #0F7386;
+}
+
+#about p {
+    color: #0F7386;
 }
 
 /*-------- how it works css --------------*/
@@ -368,7 +379,7 @@ header .header-content {
      width: 100%;   
 }
 #how-it-works::before {
-    background:rgba(255, 255, 255, 0.5);
+    background:#ffffff;
     content:"";
     height: 10%;
     position:absolute;
@@ -382,16 +393,33 @@ header .header-content {
 {
     color:#ff4c00;
 }
+
+/*#how-it-works img{
+    width: 321px;
+    height: 641px;
+}*/
+
+#how-it-works p{
+    color: #0F7386;
+}
+
+#how-it-works h3{
+    color: #44C4DC;
+}
+
 /*-------- Screenshots --------------*/
 #Screenshots {
     padding: 120px 0 0;  
      width: 100%;   
      position:relative;
-     background: linen none repeat scroll 0 0;
+     background: #E0F3F8;
+}
+#Screenshots p {
+    color: #0F7386;
 }
 /*-------- contact --------------*/
 #contact {
-    background: #333 none repeat scroll 0 0;
+    background: #E0F3F8;
     color: #fff;
     padding: 60px 0 0px;
     position: relative;
@@ -437,7 +465,7 @@ header .header-content {
     width: 100%;
 }
 #contact .headding h2 span {
-    color: #fff;
+    color: #F8A957;
 }
 #contact .map
 {
@@ -446,7 +474,7 @@ height:272px;
 
 /*-------- footer --------------*/
 #footer {
-    background: #333 none repeat scroll 0 0;
+    background: #0F7386;
     color: #fff;
     padding: 60px 0 120px;
     position: relative;
@@ -454,8 +482,8 @@ height:272px;
     text-align: center;
 }
 #footer .social-links {
-    border-bottom: 2px dashed #444;
-    border-top: 2px dashed #444;
+    border-bottom: 2px dashed #44C4DC;
+    border-top: 2px dashed #44C4DC;
     list-style: outside none none;
     margin: 0 0 20px;
     padding: 35px 0;
@@ -466,9 +494,9 @@ height:272px;
     margin: 5px;
 }
 #footer .social-links a {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: #E0F3F8;
     border-radius: 3px;
-    color: rgba(255, 255, 255, 0.2);
+    color: #E0F3F8;
     display: block;
     font-size: 14px;
     height: 36px;
@@ -714,14 +742,15 @@ height:272px;
 .header-content h2 {
     font-size: 22px;
     margin-bottom: 22px;
+    color: #0F7386;
 }
 .header-content h3 {
-    color: #ff4c00;
+    color: #F8A957;
     font-size: 15px;
     margin-bottom: 8px;
 }
 .header-content p {
-    color: #ddd;
+    color: #FFD397;
     font-size: 13px;
     margin-bottom: 28px;
 }
@@ -735,7 +764,7 @@ height:272px;
     padding: 20px 0;
 }
 .navbar-collapse {
-    background: #ff4c00;
+    background: #FFD397;
 }
 .textcenter.animated img {
     width: 50% !important;
@@ -747,7 +776,7 @@ height:272px;
     padding: 80px 0;
 }
 .angle::before {
-    border-bottom: 72px solid #333;
+    border-bottom: 72px solid #0F7386;
     border-right: 600px solid transparent;
     left: 0;
 }
@@ -760,12 +789,12 @@ height:272px;
     z-index: 4;
 }
 .angle::after {
-    border-bottom: 72px solid #333;
+    border-bottom: 72px solid #0F7386;
     border-left: 600px solid transparent;
     right: 0;
 }
 .angle2::before {
-    border-top: 72px solid #333;
+    border-top: 72px solid #0F7386;
     border-right: 600px solid transparent;
     left: 0;
 }
@@ -778,7 +807,7 @@ height:272px;
     z-index: 4;
 }
 .angle2::after {
-    border-top: 72px solid #333;
+    border-top: 72px solid #0F7386;
     border-left: 600px solid transparent;
     right: 0;
 }
@@ -790,13 +819,14 @@ height:272px;
     .header-content h2 {
     font-size: 20px;
        margin-bottom: 11px;
+    color: #0F7386;
 }
 .header-content h3 {  
     font-size: 18px;
     margin-bottom: 11px;
 }
 .header-content p {
-    color: #ddd;
+    color: #FFD397;
     font-size: 13px;
     margin-bottom: 18px;
 }
@@ -830,7 +860,7 @@ height:272px;
     text-align: left;
 }
 .angle::before {
-    border-bottom: 30px solid #333;
+    border-bottom: 30px solid #0F7386;
     border-right: 960px solid transparent;
     left: 0;
 }
@@ -843,12 +873,12 @@ height:272px;
     z-index: 4;
 }
 .angle::after {
-    border-bottom: 30px solid #333;
+    border-bottom: 30px solid #0F7386;
     border-left: 960px solid transparent;
     right: 0;
 }
 .angle2::before {
-    border-top: 30px solid #333;
+    border-top: 30px solid #0F7386;
     border-right: 960px solid transparent;
     left: 0;
 }
@@ -861,7 +891,7 @@ height:272px;
     z-index: 4;
 }
 .angle2::after {
-    border-top: 30px solid #333;
+    border-top: 30px solid #0F7386;
     border-left: 960px solid transparent;
     right: 0;
 }
@@ -880,14 +910,15 @@ height:272px;
 .header-content h2 {
     font-size: 22px;
     margin-bottom: 22px;
+    color: #0F7386;
 }
 .header-content h3 {
-    color: #ff4c00;
+    color: #FFD397;
     font-size: 15px;
     margin-bottom: 8px;
 }
 .header-content p {
-    color: #ddd;
+    color: #FFD397;
     font-size: 13px;
     margin-bottom: 28px;
 }
@@ -901,7 +932,7 @@ height:272px;
     padding: 20px 0;
 }
 .navbar-collapse {
-    background: #ff4c00;
+    background: #FFD397;
 }
 .textcenter.animated img {
     width: 50% !important;
@@ -913,7 +944,7 @@ height:272px;
     padding: 80px 0;
 }
 .angle::before {
-    border-bottom: 30px solid #333;
+    border-bottom: 30px solid #0F7386;
     border-right: 480px solid transparent;
     left: 0;
 }
@@ -926,12 +957,12 @@ height:272px;
     z-index: 4;
 }
 .angle::after {
-    border-bottom: 30px solid #333;
+    border-bottom: 30px solid #0F7386;
     border-left: 480px solid transparent;
     right: 0;
 }
 .angle2::before {
-    border-top: 30px solid #333;
+    border-top: 30px solid #0F7386;
     border-right: 480px solid transparent;
     left: 0;
 }
@@ -944,7 +975,7 @@ height:272px;
     z-index: 4;
 }
 .angle2::after {
-    border-top: 30px solid #333;
+    border-top: 30px solid #0F7386;
     border-left: 480px solid transparent;
     right: 0;
 }
@@ -955,7 +986,7 @@ height:272px;
     height: 544px;
 }
 .angle::before {
-    border-bottom: 30px solid #333;
+    border-bottom: 30px solid #0F7386;
     border-right: 320px solid transparent;
     left: 0;
 }
@@ -968,12 +999,12 @@ height:272px;
     z-index: 4;
 }
 .angle::after {
-    border-bottom: 30px solid #333;
+    border-bottom: 30px solid #0F7386;
     border-left: 320px solid transparent;
     right: 0;
 }
 .angle2::before {
-    border-top: 30px solid #333;
+    border-top: 30px solid #0F7386;
     border-right: 320px solid transparent;
     left: 0;
 }
@@ -986,7 +1017,7 @@ height:272px;
     z-index: 4;
 }
 .angle2::after {
-    border-top: 30px solid #333;
+    border-top: 30px solid #0F7386;
     border-left: 320px solid transparent;
     right: 0;
 }
